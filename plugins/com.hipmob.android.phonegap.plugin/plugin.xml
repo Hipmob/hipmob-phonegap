@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="com.hipmob.android.phonegap.plugin"
+	version="0.1.0">
+  
+  <name>Hipmob</name>
+
+  <description>Hipmob provides an in-app live chat and helpdesk for mobile apps.</description>
+
+  <author>Femi Omojola (femi@hipmob.com)</author>
+  
+  <keywords>real-time, live chat, cobrowsing, screensharing, customer support, support, helpdesk, QA, sales, demos, demonstrations push notifications, push messaging, push alerts, push</keywords>
+
+  <license>MIT License</license>
+
+  <engines>
+    <engine name="cordova" version=">=2.9" />
+  </engines>
+  
+  <js-module src="www/hipmob.js" name="Hipmob">
+    <clobbers target="window.plugins.Hipmob" />    
+  </js-module>
+  
+  <platform name="android">
+    <source-file src="src/android/Hipmob.java" target-dir="src/com/hipmob/android/phonegap/plugin/" />
+    <source-file src="src/android/android-hipmob.jar" target-dir="libs" />
+    
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="Hipmob">
+	<param name="android-package" value="com.hipmob.android.phonegap.plugin.Hipmob" />
+      </feature>
+      <access origin="https://hipmob.s3.amazonaws.com/*" />
+      <access origin="https://babble.hipmob.com/*" />
+    </config-file>
+    
+    <config-file target="AndroidManifest.xml" parent="/*">
+      <uses-permission android:name="android.permission.INTERNET" />
+      <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+      <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    </config-file>
+
+    <config-file target="AndroidManifest.xml" parent="/manifest/application">
+      <activity android:name="com.hipmob.android.HipmobCore" android:label="@string/app_name" android:theme="@style/HipmobThemeSelector">
+      </activity>
+      <activity android:name="com.hipmob.android.HipmobHelpDeskArticleViewActivity" android:label="@string/app_name" android:theme="@style/HipmobThemeSelector">
+      </activity>
+      <activity android:name="com.hipmob.android.HipmobHelpDeskSearchActivity" android:label="@string/app_name" android:theme="@style/HipmobThemeSelector">
+      </activity>
+    </config-file>
+
+    <asset src="src/android/styles.xml" target="../../res/values/hipmob-styles.xml" />
+    <asset src="src/android/styles-v11.xml" target="../../res/values-v11/hipmob-styles.xml" />
+  </platform>  
+</plugin>
