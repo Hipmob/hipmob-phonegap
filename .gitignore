@@ -2,3 +2,5 @@
 platforms/android/local.properties
 platforms/android/bin/
 platforms/android/gen/
+.DS_Store
+*/xcuserdata/*.xcuserdatad/*

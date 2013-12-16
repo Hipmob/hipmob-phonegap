@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+	id="com.hipmob.ios.phonegap.plugin"
+	version="0.1.0">
+  
+  <name>Hipmob</name>
+
+  <description>Hipmob provides in-app live chat and helpdesk for mobile apps.</description>
+
+  <author>Femi Omojola (femi@hipmob.com)</author>
+  
+  <keywords>real-time, live chat, cobrowsing, screensharing, customer support, support, helpdesk, QA, sales, demos, demonstrations push notifications, push messaging, push alerts, push</keywords>
+
+  <license>MIT License</license>
+
+  <engines>
+    <engine name="cordova" version=">=2.9" />
+  </engines>
+  
+  <js-module src="www/hipmob.js" name="Hipmob">
+    <clobbers target="window.plugins.Hipmob" />    
+  </js-module>
+  
+  <platform name="ios">    
+    <config-file target="config.xml" parent="/*">
+      <feature name="Hipmob">
+        <param name="ios-package" value="HipmobPlugin" /> 
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/HipmobPlugin.h" />
+    <header-file src="src/ios/HMChatViewController.h" />
+    <header-file src="src/ios/HMHelpDeskSearchViewController.h" />
+    <header-file src="src/ios/HMHelpDeskArticleViewController.h" />
+    <header-file src="src/ios/HMContentHelpDeskArticleViewController.h" />
+    <header-file src="src/ios/HMChatView.h" />
+    <header-file src="src/ios/HMChatMessage.h" />
+    <header-file src="src/ios/HMHelpDeskSearchView.h" />
+    <header-file src="src/ios/HMVersion.h" />
+
+    <source-file src="src/ios/HipmobPlugin.m" />
+    
+    <source-file src="src/ios/hipmob" framework="true" />
+
+    <resource-file src="src/ios/images/7-hipmob-back.png" />
+    <resource-file src="src/ios/images/7-hipmob-chatbubble-from.png" />
+    <resource-file src="src/ios/images/7-hipmob-chatbubble-from@2x.png" />
+    <resource-file src="src/ios/images/7-hipmob-chatbubble-to.png" />
+    <resource-file src="src/ios/images/7-hipmob-chatbubble-to@2x.png" />
+    <resource-file src="src/ios/images/7-hipmob-input-background-landscape.png" />
+    <resource-file src="src/ios/images/7-hipmob-input-background.png" />
+    <resource-file src="src/ios/images/7-hipmob-input-background@2x.png" />
+    <resource-file src="src/ios/images/7-hipmob-operator-available.png" />
+    <resource-file src="src/ios/images/7-hipmob-operator-connecting.png" />
+    <resource-file src="src/ios/images/7-hipmob-operator-offline.png" />
+    <resource-file src="src/ios/images/7-hipmob-operator-unavailable.png" />
+    <resource-file src="src/ios/images/7-hipmob-send-active.png" />
+    <resource-file src="src/ios/images/7-hipmob-send-inactive.png" />
+    <resource-file src="src/ios/images/7-hipmob-send-instate.png" />
+    <resource-file src="src/ios/images/7-hipmob-webview-back.png" />
+    <resource-file src="src/ios/images/7-hipmob-webview-back@2x.png" />
+    <resource-file src="src/ios/images/7-hipmob-webview-forward.png" />
+    <resource-file src="src/ios/images/7-hipmob-webview-forward@2x.png" />
+    <resource-file src="src/ios/images/hipmob-back.png" />
+    <resource-file src="src/ios/images/hipmob-chat-pressed.png" />
+    <resource-file src="src/ios/images/hipmob-chat-pressed@2x.png" />
+    <resource-file src="src/ios/images/hipmob-chat.png" />
+    <resource-file src="src/ios/images/hipmob-chat@2x.png" />
+    <resource-file src="src/ios/images/hipmob-chatbubble-from.png" />
+    <resource-file src="src/ios/images/hipmob-chatbubble-from@2x.png" />
+    <resource-file src="src/ios/images/hipmob-chatbubble-to.png" />
+    <resource-file src="src/ios/images/hipmob-chatbubble-to@2x.png" />
+    <resource-file src="src/ios/images/hipmob-input-background-landscape.png" />
+    <resource-file src="src/ios/images/hipmob-input-background.png" />
+    <resource-file src="src/ios/images/hipmob-input-background@2x.png" />
+    <resource-file src="src/ios/images/hipmob-operator-available.png" />
+    <resource-file src="src/ios/images/hipmob-operator-connecting.png" />
+    <resource-file src="src/ios/images/hipmob-operator-offline.png" />
+    <resource-file src="src/ios/images/hipmob-operator-unavailable.png" />
+    <resource-file src="src/ios/images/hipmob-send-active.png" />
+    <resource-file src="src/ios/images/hipmob-send-inactive.png" />
+    <resource-file src="src/ios/images/hipmob-send-instate.png" />
+    <resource-file src="src/ios/images/hipmob-webview-back.png" />
+    <resource-file src="src/ios/images/hipmob-webview-back@2x.png" />
+    <resource-file src="src/ios/images/hipmob-webview-forward.png" />
+    <resource-file src="src/ios/images/hipmob-webview-forward@2x.png" />
+
+    <framework src="libsqlite3.dylib" />
+    <framework src="CoreData.framework" />
+    <framework src="libicucore.dylib" />
+    <framework src="Security.framework" />
+    <framework src="CFNetwork.framework" />
+    <framework src="UIKit.framework" />
+    <framework src="CoreGraphics.framework" />
+    <framework src="Foundation.framework" />    
+  </platform>  
+</plugin>
