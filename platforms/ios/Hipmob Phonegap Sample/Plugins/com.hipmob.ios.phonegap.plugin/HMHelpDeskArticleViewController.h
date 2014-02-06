@@ -13,51 +13,9 @@
 #import "HMChatView.h"
 
 /**
- * An enumeration that controls whether or not the chat button is shown in the HMHelpDeskArticleViewController's navigation bar.
- */
-typedef NS_ENUM(NSInteger, HMHelpDeskArticleChatEnabled){
-    /**
-     * Always show the chat button.
-     */
-    HMHelpDeskArticleChatEnabledAlways            = 0,
-    
-    /**
-     * Only show the chat button if an operator is available.
-     */
-    HMHelpDeskArticleChatEnabledIfOperatorAvailable = 1,
-    
-    /**
-     * Never show the chat button.
-     */
-    HMHelpDeskArticleChatEnabledNever             = 2
-};
-
-/** The HMHelpDeskArticleViewControllerDelegate protocol defines the optional methods implemented by delegates of HMHelpDeskArticleViewController instances.
- */
-@protocol HMHelpDeskArticleViewControllerDelegate <NSObject>;
-
-@optional
-/**
- * Tells the delegate that the user is about to open a chat window.
- *
- * @param articleViewController The HMHelpDeskArticleViewController instance that opened the chat window.
- * @param chatViewController The HMContentChatViewController instance that opened.
- */
--(void)articleViewController:(id)articleViewController willOpenChat:(id)chatViewController;
-
-/**
- * Tells the delegate that the chat button has been displayed, and passes the button so additional styling can be applied.
- *
- * @param articleViewController The HMHelpDeskArticleViewController instance that opened the chat window.
- * @param chatButton The UIButton added to the navigation bar.
- */
--(void)articleViewController:(id)articleViewController hasShownChatButton:(UIButton *)chatButton;
-@end
-
-/**
  * Provides a simple UIViewController that renders a full-screen help desk article window.
  */
-@interface HMHelpDeskArticleViewController : UINavigationController <HMChatOperatorAvailabilityCheckDelegate>
+@interface HMHelpDeskArticleViewController : UINavigationController
 {
 }
 
@@ -86,15 +44,6 @@ typedef NS_ENUM(NSInteger, HMHelpDeskArticleChatEnabled){
  * Sets the preferred status bar style.
  */
 @property (nonatomic, assign) UIStatusBarStyle overridePreferredStatusBarStyle;
-
-/**
- * A constant indicating the conditions under which the chat button should be displayed. See [HMHelpDeskArticleChatEnabled](../Constants/HMHelpDeskArticleChatEnabled.html) for descriptions of these constants. The user id passed when the article view controller was initialized must NOT be nil for the chat button to appear.
- */
-@property (nonatomic, assign) HMHelpDeskArticleChatEnabled chatEnabled;
-
-/** The HMHelpDeskArticleViewControllerDelegate for this article view.
- */
-@property (assign) id<HMHelpDeskArticleViewControllerDelegate> viewDelegate;
 
 ///------------------------------------------------------------------------------------------
 /// @name Initialization

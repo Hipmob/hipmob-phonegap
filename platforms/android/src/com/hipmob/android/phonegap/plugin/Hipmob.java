@@ -83,7 +83,7 @@ public class Hipmob extends CordovaPlugin
 	    try{
 		final Intent hd = new Intent(cordova.getActivity(), HipmobHelpDeskArticleViewActivity.class);
 		hd.putExtra(HipmobHelpDeskArticleViewActivity.KEY_APPID, args.get(0).toString());
-		hd.putExtra(HipmobHelpDeskArticleViewActivity.KEY_ARTICLEURL, args.get(1).toString());
+		hd.putExtra(HipmobHelpDeskArticleViewActivity.KEY_ARTICLEID, args.get(1).toString());
 		JSONObject obj = (JSONObject)args.get(2);
 		if(obj.has("title")) hd.putExtra(HipmobHelpDeskArticleViewActivity.KEY_TITLE, obj.getString("title"));
 		if(obj.has("context")) hd.putExtra(HipmobHelpDeskArticleViewActivity.KEY_CONTEXT, obj.getString("context"));

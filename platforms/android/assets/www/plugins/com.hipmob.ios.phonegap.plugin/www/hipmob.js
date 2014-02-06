@@ -22,10 +22,10 @@ var openHelpdeskSearch = function(appid, options, success, failure){
     exec(success, failure, 'Hipmob', 'openHelpdeskSearch', args);
 };
 
-var openHelpdeskArticle = function(appid, url, options, success, failure){
+var openHelpdeskArticle = function(appid, articleid, options, success, failure){
     var opts = {};
     if(options && typeof options == 'object') opts = options;
-    var args = [appid, url, opts];
+    var args = [appid, articleid, opts];
     exec(success, failure, 'Hipmob', 'openHelpdeskArticle', args);
 };
 

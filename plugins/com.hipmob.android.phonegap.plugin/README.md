@@ -59,10 +59,10 @@ To open an instant help window, you can do:
 
     if( window.plugins && window.plugins.Hipmob ) {
         var hipmob_app_id = '<HIPMOB APPLICATION ID>';
-	var helpdesk_article_url = '<helpdesk article url>';
+	var helpdesk_article = '<helpdesk article ID>';
         var Hipmob = window.plugins.Hipmob;
     
-        Hipmob.openHelpdeskArticle(hipmob_app_id, helpdesk_article_url, {
+        Hipmob.openHelpdeskArticle(hipmob_app_id, helpdesk_article, {
 	'title': 'Help',
 	'user': '<hipmob user id>',
 	'name': 'Femi',

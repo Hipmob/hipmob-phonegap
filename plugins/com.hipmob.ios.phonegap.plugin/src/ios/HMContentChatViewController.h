@@ -60,6 +60,36 @@
  * @param contentChatViewController The HMContentChatViewController instance that is closing.
  */
 -(void)contentChatViewControllerWillDismiss:(id)contentChatViewController;
+
+/**
+ * Tells the delegate that an operator came online.
+ *
+ * @param contentChatViewController The HMContentChatViewController instance that was updated.
+ */
+-(void)contentChatViewControllerDidOperatorComeOnline:(id)contentChatViewController;
+
+/**
+ * Tells the delegate that all operators went offline.
+ *
+ * @param contentChatViewController The HMContentChatViewController instance that was updated.
+ */
+-(void)contentChatViewControllerDidOperatorGoOffline:(id)contentChatViewController;
+
+/**
+ * Tells the delegate that a specific peer came online.
+ *
+ * @param contentChatViewController The HMContentChatViewController instance that was updated.
+ * @param peer The peer that came online.
+ */
+-(void)contentChatViewController:(id)contentChatViewController didPeerComeOnline:(NSString *)peer;
+
+/**
+ * Tells the delegate that a specific peer went offline.
+ *
+ * @param contentChatViewController The HMContentChatViewController instance that was updated.
+ * @param peer The peer that wend offline.
+ */
+-(void)contentChatViewController:(id)contentChatViewController didPeerGoOffline:(NSString *)peer;
 @end
 
 /** Provides a simple UIViewController that renders a full-screen chat window.
@@ -105,6 +135,17 @@
  * Set to YES to prevent the controller from adjusting for keyboard show/hide (defaults to NO). This is particularly useful when embedding in popover view controllers.
  */
 @property (nonatomic, assign) BOOL disableKeyboardAdjustment;
+
+/**
+ * Set to YES to prevent the controller from showing the availability indicator.
+ */
+@property (nonatomic, assign) BOOL hidesAvailabilityIndicator;
+
+/**
+ * Sets/return the extra UIBarButtonItems to be shown on the right for this controller. If this is nil
+ * then no extra button items are shown.
+ */
+@property(nonatomic, copy) NSArray * extraBarButtonItems;
 
 /** The HMContentChatViewControllerDelegate for this chat view.
  */

@@ -47,7 +47,7 @@ var app = {
         console.log('Received Event: ' + id);
 
 	if( window.plugins && window.plugins.Hipmob ) {
-	    var hipmob_app_id = '2ea7d86854df4ca185af84e68ea72fe1';
+	    var hipmob_app_id = 'b937e4b524f84fde963da380b948c227';
 	    var Hipmob = window.plugins.Hipmob;
 	    
 	    var success = function(){
@@ -75,7 +75,7 @@ var app = {
 		/*
 		 * Article display.
 		 */
-		Hipmob.openHelpdeskArticle(hipmob_app_id, "https://hipmobdemo.zendesk.com/entries/25374598-Operator-Shortcuts", { 'title': 'Operator Shortcuts' }, success, failure);				
+		Hipmob.openHelpdeskArticle(hipmob_app_id, "6ca759008f174547b6f2b263f8c7ae77", { 'title': 'Live support for HTML5 & Phonegap apps' }, success, failure);
 	    });
 	}else{
 	    alert('Hipmob plugin not available/ready.');

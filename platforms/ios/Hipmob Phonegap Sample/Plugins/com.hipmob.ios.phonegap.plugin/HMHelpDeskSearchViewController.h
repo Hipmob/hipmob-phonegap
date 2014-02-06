@@ -1,5 +1,5 @@
 //
-//  HMChatViewController.h
+//  HMHelpDeskSearchViewController.h
 //  hipmob
 //
 //  Created by Olufemi Omojola on 6/1/13.
@@ -36,7 +36,7 @@ typedef NS_ENUM(NSInteger, HMHelpDeskSearchChatEnabled){
  */
 @protocol HMHelpDeskSearchViewControllerDelegate <NSObject>;
 
-@required
+@optional
 /** Tells the delegate that a specific article was selected. The delegate may choose to handle the article itself: if it does, it should
  * return TRUE or YES. If the delegate does not implement this method or if it returns FALSE or NO (i.e. it either does not handle
  * URLs of this format or if it doesn't want to implement any special logic) then the URL will be opened in a private WebView.
@@ -52,11 +52,20 @@ typedef NS_ENUM(NSInteger, HMHelpDeskSearchChatEnabled){
  */
 -(BOOL)searchViewController:(id)searchViewController didSelectArticle:(NSString *)id withTitle:(NSString *)title andURL:(NSString *)url andBaseURL:(NSString *)baseURL andContent:(NSString *)content;
 
-@optional
+/** Provides the delegate with an array of results that are about to be displayed to the user. The delegate may choose
+ * to alter the array to remove specific results or to adjust the sort order. The search view caches search results
+ * on a per-query basis: for any specific query this delegate callback will be invoked at most once. The array will contain HMSearchResultRow instances.
+ *
+ * @param searchViewController The HMHelpDeskSearchView instance that generated the event.
+ * @param results The search results: this is an array of HMSearchResultRow instances.
+ * @param query The query that produced these results.
+ */
+-(void)searchViewController:(id)searchViewController willRenderResults:(NSMutableArray *)results forQuery:(NSString *)query;
+
 /**
  * Tells the delegate that the chat button has been displayed, and passes the button so additional styling can be applied.
  *
- * @param searchViewController The HMHelpDeskSearchViewController instance that received the error.
+ * @param searchViewController The HMHelpDeskSearchViewController instance that showed the chat button.
  * @param chatButton The UIButton added to the navigation bar.
  */
 -(void)searchViewController:(id)searchViewController hasShownChatButton:(UIButton *)chatButton;
@@ -145,11 +154,22 @@ typedef NS_ENUM(NSInteger, HMHelpDeskSearchChatEnabled){
 @property (nonatomic, assign) BOOL disableKeyboardAdjustment;
 
 /**
+ * Set to YES to prevent the controller from automatically wrapping the help content with a meta viewport tag (defaults to NO). This is useful if you are using the content view controller in a non-full screen manner.
+ */
+@property (nonatomic, assign) BOOL disableViewportWrap;
+
+/**
  * Sets the preferred status bar style.
  */
 @property (nonatomic, assign) UIStatusBarStyle overridePreferredStatusBarStyle;
 
-/** The HMChatViewControllerDelegate for this chat view.
+/**
+ * Sets/return the extra UIBarButtonItems to be shown on the right for this controller. If this is nil
+ * then no extra button items are shown.
+ */
+@property(nonatomic, copy) NSArray * extraBarButtonItems;
+
+/** The HMHelpDeskSearchViewControllerDelegate for this chat view.
  */
 @property (assign) id<HMHelpDeskSearchViewControllerDelegate> searchDelegate;
 

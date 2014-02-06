@@ -13,6 +13,46 @@
 #import <CoreLocation/CoreLocation.h>
 #import <CoreData/CoreData.h>
 
+@interface HMSearchResultRow : NSObject
+{
+
+}
+/**
+ * The id of this article.
+ */
+@property (nonatomic, retain) NSString * articleId;
+
+/**
+ * The title of this article.
+ */
+@property (nonatomic, retain) NSString * title;
+
+/**
+ * The URL for this article.
+ */
+@property (nonatomic, retain) NSString * url;
+
+/**
+ * The baseurl to be used when resolving relative references within the text.
+ */
+@property (nonatomic, retain) NSString * baseurl;
+
+/**
+ * The HTML body of the article.
+ */
+@property (nonatomic, retain) NSString * body;
+
+/**
+ * The plain-text preview for the article.
+ */
+@property (nonatomic, retain) NSString * plain;
+
+/**
+ * The tags for the article.
+ */
+@property (nonatomic, retain) NSArray * tags;
+@end
+
 @class HMHelpDeskSearchView;
 
 /** The HMHelpDeskSearchViewDelegate protocol defines the required and optional methods implemented by delegates of HMHelpDeskSearchView instances.
@@ -23,6 +63,16 @@
 @protocol HMHelpDeskSearchViewDelegate <NSObject>;
 
 @optional
+/** Provides the delegate with an array of results that are about to be displayed to the user. The delegate may choose
+ * to alter the array to remove specific results or to adjust the sort order. The search view caches search results
+ * on a per-query basis: for any specific query this delegate callback will be invoked at most once. The array will contain HMSearchResultRow instances.
+ *
+ * @param searchView The HMHelpDeskSearchView instance that generated the event.
+ * @param results The search results: this is an array of HMSearchResultRow instances.
+ * @param query The query that produced these results.
+ */
+-(void)searchView:(id)searchView willRenderResults:(NSMutableArray *)results forQuery:(NSString *)query;
+
 /** Tells the delegate that a specific article was selected. The delegate may choose to handle the article itself: if it does, it should
  * return TRUE or YES. If the delegate does not implement this method or if it returns FALSE or NO (i.e. it either does not handle
  * URLs of this format or if it doesn't want to implement any special logic) then the URL will be opened in a private WebView.
@@ -83,6 +133,11 @@
  * The default search query to use when the view first appears.
  */
 @property (nonatomic, retain) NSString * defaultQuery;
+
+/**
+ * The tag filter to apply to all queries.
+ */
+@property (nonatomic, retain) NSString * tagFilter;
 
 /**
  * The user's context when the search was loaded.

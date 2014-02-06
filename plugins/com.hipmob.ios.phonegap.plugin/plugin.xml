@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
 	id="com.hipmob.ios.phonegap.plugin"
-	version="0.2.0">
+	version="1.0.0">
   
   <name>Hipmob</name>
 
-  <description>Hipmob provides in-app live chat and helpdesk for mobile apps.</description>
+  <description>Hipmob provides in-app helpdesk and live chat for mobile apps.</description>
 
   <author>Femi Omojola (femi@hipmob.com)</author>
   
@@ -37,6 +37,7 @@
     <header-file src="src/ios/HMChatMessage.h" />
     <header-file src="src/ios/HMHelpDeskSearchView.h" />
     <header-file src="src/ios/HMVersion.h" />
+    <header-file src="src/ios/HMService.h" />
 
     <source-file src="src/ios/HipmobPlugin.m" />
     
@@ -87,6 +88,7 @@
 
     <framework src="libsqlite3.dylib" />
     <framework src="CoreData.framework" />
+    <framework src="CoreTelephony.framework" />
     <framework src="libicucore.dylib" />
     <framework src="Security.framework" />
     <framework src="CFNetwork.framework" />

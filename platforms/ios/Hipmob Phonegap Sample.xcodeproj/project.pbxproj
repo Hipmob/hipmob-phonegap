@@ -39,58 +39,59 @@
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
-		DAFCC0F4945A494594354AE6 /* HipmobPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D38A3DF838464395174324 /* HipmobPlugin.m */; };
-		94F5814C8FF941B6971A9F77 /* hipmob in Resources */ = {isa = PBXBuildFile; fileRef = 0939AF4CB6FA4AE1ABC15048 /* hipmob */; };
-		7353D33CE3F44B5C86A3BDFC /* hipmob in Resources */ = {isa = PBXBuildFile; fileRef = B0002A61210044D4B0B4A594 /* hipmob */; };
-		9414F09FF0AB41D58510C479 /* 7-hipmob-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 365F609ECB504EC7B0FB2546 /* 7-hipmob-back.png */; };
-		1F29D1DAA1714C4FA747A339 /* 7-hipmob-chatbubble-from.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD87FA17BFE468C81B96B52 /* 7-hipmob-chatbubble-from.png */; };
-		DC89064B7FC8497E9F2DD38F /* 7-hipmob-chatbubble-from@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65AA56BD3932434EB37E348B /* 7-hipmob-chatbubble-from@2x.png */; };
-		1D5A359B8B9D4FE1B38AA706 /* 7-hipmob-chatbubble-to.png in Resources */ = {isa = PBXBuildFile; fileRef = 534CEA29EB1B4C1BAAEF6BBA /* 7-hipmob-chatbubble-to.png */; };
-		BD7911F91E4645258A083692 /* 7-hipmob-chatbubble-to@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FE60F501AE4151A55FD32D /* 7-hipmob-chatbubble-to@2x.png */; };
-		58EAA45017A8467FB60022FE /* 7-hipmob-input-background-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B5F53B768F4EB5B58E59AF /* 7-hipmob-input-background-landscape.png */; };
-		D4C7D8A1DDBA4244AFE0D395 /* 7-hipmob-input-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 155F7F40616B4591A61C63A9 /* 7-hipmob-input-background.png */; };
-		18EAB8B1133C4F75AE668969 /* 7-hipmob-input-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96DFA03D32484BBC93E2256C /* 7-hipmob-input-background@2x.png */; };
-		CAB0BDE4A6F744889D3063E4 /* 7-hipmob-operator-available.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EF0414F39154C439C565C6D /* 7-hipmob-operator-available.png */; };
-		3823BC55350A4F2797DE5CAC /* 7-hipmob-operator-connecting.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AB08CF36EEB4B7D9D999163 /* 7-hipmob-operator-connecting.png */; };
-		3A7F429D902C4024BA86BF1F /* 7-hipmob-operator-offline.png in Resources */ = {isa = PBXBuildFile; fileRef = E8423267D2034E81A1C2FD50 /* 7-hipmob-operator-offline.png */; };
-		DE9B2F9395954AE4BDC2801E /* 7-hipmob-operator-unavailable.png in Resources */ = {isa = PBXBuildFile; fileRef = B91208EE5D49404A996FADC5 /* 7-hipmob-operator-unavailable.png */; };
-		0C1500BE1E5841458E8DF0A1 /* 7-hipmob-send-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 331B0414E18542F4BF8DADF1 /* 7-hipmob-send-active.png */; };
-		BF3C3D5E3E3C475D87D0687C /* 7-hipmob-send-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE5E65313934D6783CF6203 /* 7-hipmob-send-inactive.png */; };
-		4DD28F37EE70495BA0D419DE /* 7-hipmob-send-instate.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D56490E2C64B788BDA7436 /* 7-hipmob-send-instate.png */; };
-		FECE626A5A31476F9FB9FEE9 /* 7-hipmob-webview-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 7250C08EC5484E1BAFA0CC46 /* 7-hipmob-webview-back.png */; };
-		3AEC1786E78840FC895A804B /* 7-hipmob-webview-back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73211B0E790447DD9F4229E6 /* 7-hipmob-webview-back@2x.png */; };
-		C6660C643C754657B73F60F9 /* 7-hipmob-webview-forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB8E5AEC18400ABB5FEB4F /* 7-hipmob-webview-forward.png */; };
-		02EBE86C8964410E98C13B6F /* 7-hipmob-webview-forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D3DD010107343ABAD2455C3 /* 7-hipmob-webview-forward@2x.png */; };
-		ACDD4E29140F4776BDB263C4 /* hipmob-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 28C0EB5A75E44EF5B941BF12 /* hipmob-back.png */; };
-		8579A2E1FE01419BBA87B711 /* hipmob-chat-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AC8FF28C1E4F78BE09544C /* hipmob-chat-pressed.png */; };
-		6E5516CD5EAD40C29DDB951C /* hipmob-chat-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F168F7269A1645A9AE07C7C0 /* hipmob-chat-pressed@2x.png */; };
-		2BCC043DC6D7414787E250CE /* hipmob-chat.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CC3DF8D94F4657BF62BA9E /* hipmob-chat.png */; };
-		D57EAA38F1F14800A3F246C1 /* hipmob-chat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BEA5605724476099F08800 /* hipmob-chat@2x.png */; };
-		D171584BEE344D58AFB29DB8 /* hipmob-chatbubble-from.png in Resources */ = {isa = PBXBuildFile; fileRef = 4490804D52D8468999AE9EC6 /* hipmob-chatbubble-from.png */; };
-		9AEF4857502C4C1FB479D12B /* hipmob-chatbubble-from@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD9B720EC274F4CAEF6DA20 /* hipmob-chatbubble-from@2x.png */; };
-		0F4162BA44C940489190EA71 /* hipmob-chatbubble-to.png in Resources */ = {isa = PBXBuildFile; fileRef = D823390B7D97424F98E4F1B0 /* hipmob-chatbubble-to.png */; };
-		80E6328437DA444EAB339BBE /* hipmob-chatbubble-to@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 265CF9ECF8954D77B84E018A /* hipmob-chatbubble-to@2x.png */; };
-		1E4EA9B161E74BD6B9DE9E82 /* hipmob-input-background-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = BDEDA879B3C543CFB0479EB3 /* hipmob-input-background-landscape.png */; };
-		30AE2D52255C428BBCE0BAB5 /* hipmob-input-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 38AA7996263F40B0B2B48975 /* hipmob-input-background.png */; };
-		8380F76FA65D4FB7B43B41D8 /* hipmob-input-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF338A45EEC3419D8315BD7A /* hipmob-input-background@2x.png */; };
-		8628CEB8F08D416C923B34C8 /* hipmob-operator-available.png in Resources */ = {isa = PBXBuildFile; fileRef = F4D2CCF0BC41451DB53171D3 /* hipmob-operator-available.png */; };
-		BFB09F62EB444A90B9424FF4 /* hipmob-operator-connecting.png in Resources */ = {isa = PBXBuildFile; fileRef = 0385CF30C77145F1BFD9B25D /* hipmob-operator-connecting.png */; };
-		D976F3924379497FA3AE2B6D /* hipmob-operator-offline.png in Resources */ = {isa = PBXBuildFile; fileRef = 7588D6601FDC4C76BBC56FAA /* hipmob-operator-offline.png */; };
-		46FD83C7ECFB435993E259A7 /* hipmob-operator-unavailable.png in Resources */ = {isa = PBXBuildFile; fileRef = 485E616F65064E89982C73D0 /* hipmob-operator-unavailable.png */; };
-		F830727A80974489A569C0F6 /* hipmob-send-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 246FDB14D35A4F5BA31B040A /* hipmob-send-active.png */; };
-		E100631ED9B54534A89A5B9F /* hipmob-send-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A45283B848C4510BF83D4CD /* hipmob-send-inactive.png */; };
-		EDC84BD144CF4292B97E972F /* hipmob-send-instate.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8E74CFC7CF44DD926159E3 /* hipmob-send-instate.png */; };
-		5647E8CABC124FB0907E0E0C /* hipmob-webview-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D579995F7B9412EB9F18D5B /* hipmob-webview-back.png */; };
-		69374B00F2574CDEABD794FD /* hipmob-webview-back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87266BDF17DB4894B7665E19 /* hipmob-webview-back@2x.png */; };
-		922B27D7866F492DA89A5939 /* hipmob-webview-forward.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A52A352AD74CCFBEBB73E0 /* hipmob-webview-forward.png */; };
-		71530A7656664394ABF42C4F /* hipmob-webview-forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 564B2ABC23584C5EB8AB8878 /* hipmob-webview-forward@2x.png */; };
-		A0A6DF56BE7848FB95E0F9C6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BADC8E2E1344B9BFF0B7F4 /* libsqlite3.dylib */; };
-		9275CCF9107842D09CA48786 /* CoreData.framework in Resources */ = {isa = PBXBuildFile; fileRef = BE2A4F5FB95B4B4D8C38820C /* CoreData.framework */; };
-		986B372CD959446F801C0E62 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7662AC090F354375BD7236A1 /* libicucore.dylib */; };
-		1051C2F7BB9A41BB9F3A7A2A /* Security.framework in Resources */ = {isa = PBXBuildFile; fileRef = 5887161A96044BABB21FBEBD /* Security.framework */; };
-		6825859E4F58486DB3849FE4 /* CFNetwork.framework in Resources */ = {isa = PBXBuildFile; fileRef = E0815DA9062E438B85BFA7E8 /* CFNetwork.framework */; };
-		C8E1210982254A0A9C49AB2E /* UIKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = 020BC89C726749CFBB6DD872 /* UIKit.framework */; };
-		3E9D1C2473D140F799DB2581 /* Foundation.framework in Resources */ = {isa = PBXBuildFile; fileRef = 77E01BF519D94F3F9493EDA5 /* Foundation.framework */; };
+		D233544A8D6D44F6AEC2D141 /* HipmobPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFC2AA4E2114ACE91A27F1B /* HipmobPlugin.m */; };
+		7079CE5D0BA940C9915CCCE2 /* hipmob in Resources */ = {isa = PBXBuildFile; fileRef = DEA1A0F737F347648D99618A /* hipmob */; };
+		A902EB2CAEBB430E96D8FE36 /* hipmob in Resources */ = {isa = PBXBuildFile; fileRef = 69CD2CB153D6492593EA4926 /* hipmob */; };
+		1A6588D02BD14D48BD1B67F7 /* 7-hipmob-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C5E80A32817440F8AC38502 /* 7-hipmob-back.png */; };
+		1A1E31B2ADCB4E58B355786E /* 7-hipmob-chatbubble-from.png in Resources */ = {isa = PBXBuildFile; fileRef = 827C90B878904696AFAB472E /* 7-hipmob-chatbubble-from.png */; };
+		AF91D91244854A59B5E6D183 /* 7-hipmob-chatbubble-from@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB9EF66EF244E4AA1429FC8 /* 7-hipmob-chatbubble-from@2x.png */; };
+		00EA722022F340E397BB9D8E /* 7-hipmob-chatbubble-to.png in Resources */ = {isa = PBXBuildFile; fileRef = BE284C95DEE0488895C6A7F8 /* 7-hipmob-chatbubble-to.png */; };
+		ACE8C5E7B189485EBCA2D3DA /* 7-hipmob-chatbubble-to@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A99FF6F34FCA440289FFD7F0 /* 7-hipmob-chatbubble-to@2x.png */; };
+		5155ED3BC0D944A3ADA72AA3 /* 7-hipmob-input-background-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = EDAECE22F2384B65ADE954F6 /* 7-hipmob-input-background-landscape.png */; };
+		EF679C7ACCB84A13A47E2355 /* 7-hipmob-input-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C3EB475E80743BB93A38A3C /* 7-hipmob-input-background.png */; };
+		2EEFC384AF9E407EA1133051 /* 7-hipmob-input-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B736AEA9702449F79551604E /* 7-hipmob-input-background@2x.png */; };
+		5302F750A4364E9B884A508D /* 7-hipmob-operator-available.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AFF79C9FC844098C3158C0 /* 7-hipmob-operator-available.png */; };
+		BF7E9746BAA54AFABA1BE858 /* 7-hipmob-operator-connecting.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A6ABBA663144C5D8FDD65A0 /* 7-hipmob-operator-connecting.png */; };
+		B0CFCE77DD494714A6A180C0 /* 7-hipmob-operator-offline.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FC733CCBDE4E5D9287124B /* 7-hipmob-operator-offline.png */; };
+		86160B1E0DF346C5BF03B2E7 /* 7-hipmob-operator-unavailable.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C61DE7EEFA4F45987CFF2B /* 7-hipmob-operator-unavailable.png */; };
+		CF8FCDFD31894A45900F2AF5 /* 7-hipmob-send-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A8F9F6809B40A6BCD4845A /* 7-hipmob-send-active.png */; };
+		79250321B5654B61AF15BC0A /* 7-hipmob-send-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = B7964BD902C14CA3B2AA8BD2 /* 7-hipmob-send-inactive.png */; };
+		1B693BD218DB4358A68FB51D /* 7-hipmob-send-instate.png in Resources */ = {isa = PBXBuildFile; fileRef = A5E4027576CF4021811169EB /* 7-hipmob-send-instate.png */; };
+		A8B3B014B34341479121C8C8 /* 7-hipmob-webview-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 368A5B1B357D41DEA26EB5BD /* 7-hipmob-webview-back.png */; };
+		6A92F8E70D4D4FDDB697E0F0 /* 7-hipmob-webview-back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 923E84B9783F433ABBBD0900 /* 7-hipmob-webview-back@2x.png */; };
+		37D4B6EA26FF47A096F26EC5 /* 7-hipmob-webview-forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AF1883C439448E7BFC35808 /* 7-hipmob-webview-forward.png */; };
+		78B97E58465E45F3BD456378 /* 7-hipmob-webview-forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16E51DEC46F04E908C0A67AF /* 7-hipmob-webview-forward@2x.png */; };
+		F645752BB3C549F9A7386FA4 /* hipmob-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 751BF559A61B4C5FAF4642F9 /* hipmob-back.png */; };
+		043E09E971A54F20B48F63FF /* hipmob-chat-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A431B502E468AB701B785 /* hipmob-chat-pressed.png */; };
+		3436BD7F956643BF914426B8 /* hipmob-chat-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A732791EE849435C9D9688B8 /* hipmob-chat-pressed@2x.png */; };
+		3AE6F8B86C634479A09C4206 /* hipmob-chat.png in Resources */ = {isa = PBXBuildFile; fileRef = C05574FC29F348DB8BE257FC /* hipmob-chat.png */; };
+		53DE72F6AB4E4961A2F84077 /* hipmob-chat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D96D4D23DBA54CD1A8734BE2 /* hipmob-chat@2x.png */; };
+		44B82692AA14495A893DD36F /* hipmob-chatbubble-from.png in Resources */ = {isa = PBXBuildFile; fileRef = 34BB3227E904421F9D672A39 /* hipmob-chatbubble-from.png */; };
+		1BC0967060C349A48EC3EEF3 /* hipmob-chatbubble-from@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE98E6AE2A5F4E07A6B29EC6 /* hipmob-chatbubble-from@2x.png */; };
+		E004281A149A41DE8247AB96 /* hipmob-chatbubble-to.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A766119F414791AF7AF42D /* hipmob-chatbubble-to.png */; };
+		BC96882D21C94DB9AF823D9A /* hipmob-chatbubble-to@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D58EE6860C014409B4242E51 /* hipmob-chatbubble-to@2x.png */; };
+		8D2C8C927FB4481091993E4A /* hipmob-input-background-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = CD88B3F3A1EC43A890FBEAF2 /* hipmob-input-background-landscape.png */; };
+		F8AB7D42AD804F94B6F755F3 /* hipmob-input-background.png in Resources */ = {isa = PBXBuildFile; fileRef = E98C940DB7334A198229E3FA /* hipmob-input-background.png */; };
+		C56CB6A20CBE41EB844E0F6F /* hipmob-input-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0C7E5A8FDA94E65840CDBAE /* hipmob-input-background@2x.png */; };
+		2C5121B5FB3B419CAD12B944 /* hipmob-operator-available.png in Resources */ = {isa = PBXBuildFile; fileRef = B4BA39EAE3DC4AF8990275F0 /* hipmob-operator-available.png */; };
+		EC62775C906C450AA334B3CF /* hipmob-operator-connecting.png in Resources */ = {isa = PBXBuildFile; fileRef = A39F8E2282C849779A9D0401 /* hipmob-operator-connecting.png */; };
+		588DB99D82904829B33E1590 /* hipmob-operator-offline.png in Resources */ = {isa = PBXBuildFile; fileRef = E42A92A246EC4F8E801349F7 /* hipmob-operator-offline.png */; };
+		FC91A390678C4E79BD6553FD /* hipmob-operator-unavailable.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D4302F19204242BA766B27 /* hipmob-operator-unavailable.png */; };
+		5F5B39C8E1B143BDB517C53D /* hipmob-send-active.png in Resources */ = {isa = PBXBuildFile; fileRef = D7BEC1828DD84D7F89F1C4DB /* hipmob-send-active.png */; };
+		7CDD4E3482644986942A15E7 /* hipmob-send-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A19472E8A0474DADF01A13 /* hipmob-send-inactive.png */; };
+		A417AE779203444D85BC6E2E /* hipmob-send-instate.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B74B275F44848AF95B6E708 /* hipmob-send-instate.png */; };
+		1AA8ECA52D974365917AFEA9 /* hipmob-webview-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B6C8F06C35B47D1829C9FCB /* hipmob-webview-back.png */; };
+		27645D87C4A34585A4E0962B /* hipmob-webview-back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43A57D2620D24AF9A96924BC /* hipmob-webview-back@2x.png */; };
+		97D92A4F695349E981A37F29 /* hipmob-webview-forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 46668D0765BA4A95A4224D18 /* hipmob-webview-forward.png */; };
+		A35866A72A324CB5B68BF281 /* hipmob-webview-forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76F0490868904C2DBC549FDD /* hipmob-webview-forward@2x.png */; };
+		B12BE139159448ECA35DA39C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01312A4A643B4EEC85C4FB26 /* libsqlite3.dylib */; };
+		F045285E40D4413AA95C11D3 /* CoreData.framework in Resources */ = {isa = PBXBuildFile; fileRef = 9C763ADE14724C2BA6525338 /* CoreData.framework */; };
+		36C017CF95174870AB781807 /* CoreTelephony.framework in Resources */ = {isa = PBXBuildFile; fileRef = B7F874A4DC9F4CE29552EE49 /* CoreTelephony.framework */; };
+		6050031CA7AB44E2ACA744B3 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C532833B4545B7B59F29BE /* libicucore.dylib */; };
+		FD3DD6B9FF3D4774A8801F0C /* Security.framework in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE4171AF9044E7BCA1455C /* Security.framework */; };
+		C4515AE633DA436DBFF7B19D /* CFNetwork.framework in Resources */ = {isa = PBXBuildFile; fileRef = 53980C02118E47F79533B126 /* CFNetwork.framework */; };
+		399754E0587B40E0904B28F4 /* UIKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = 4110B654F5DA4B6181FFA16E /* UIKit.framework */; };
+		5D8FD4CB59C84A37A155FD1D /* Foundation.framework in Resources */ = {isa = PBXBuildFile; fileRef = 6AC07F37BAA04CC9976628D4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,67 +153,69 @@
 		8D1107310486CEB800E47090 /* Hipmob Phonegap Sample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Hipmob Phonegap Sample-Info.plist"; path = "../Hipmob Phonegap Sample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Hipmob Phonegap Sample/config.xml"; sourceTree = "<group>"; };
-		88D38A3DF838464395174324 /* HipmobPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HipmobPlugin.m"; path = "com.hipmob.ios.phonegap.plugin/HipmobPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		0939AF4CB6FA4AE1ABC15048 /* hipmob */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob"; path = "com.hipmob.ios.phonegap.plugin/hipmob"; sourceTree = "<group>"; fileEncoding = 4; };
-		B0002A61210044D4B0B4A594 /* hipmob */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob"; path = "Hipmob Phonegap Sample/Plugins/com.hipmob.ios.phonegap.plugin/hipmob"; sourceTree = "<group>"; fileEncoding = 4; };
-		FB695DFF56ED412C84FEA120 /* HipmobPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HipmobPlugin.h"; path = "com.hipmob.ios.phonegap.plugin/HipmobPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		90A19938D0C7481E894596F5 /* HMChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMChatViewController.h"; path = "com.hipmob.ios.phonegap.plugin/HMChatViewController.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		6F4A4672AE984BAE9D200987 /* HMHelpDeskSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMHelpDeskSearchViewController.h"; path = "com.hipmob.ios.phonegap.plugin/HMHelpDeskSearchViewController.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		3D0AB06F53114663BFC77428 /* HMHelpDeskArticleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMHelpDeskArticleViewController.h"; path = "com.hipmob.ios.phonegap.plugin/HMHelpDeskArticleViewController.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		DA38F31A33244842B0AC0DC6 /* HMContentHelpDeskArticleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMContentHelpDeskArticleViewController.h"; path = "com.hipmob.ios.phonegap.plugin/HMContentHelpDeskArticleViewController.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		B7D8AB7B607448D59888D2FC /* HMChatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMChatView.h"; path = "com.hipmob.ios.phonegap.plugin/HMChatView.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		1D2152BCBBE946028550A2BF /* HMChatMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMChatMessage.h"; path = "com.hipmob.ios.phonegap.plugin/HMChatMessage.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		5829E1F926F7468A9802C053 /* HMHelpDeskSearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMHelpDeskSearchView.h"; path = "com.hipmob.ios.phonegap.plugin/HMHelpDeskSearchView.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		0E376604735843139BBDDC81 /* HMVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMVersion.h"; path = "com.hipmob.ios.phonegap.plugin/HMVersion.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		365F609ECB504EC7B0FB2546 /* 7-hipmob-back.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-back.png"; path = "7-hipmob-back.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		CCD87FA17BFE468C81B96B52 /* 7-hipmob-chatbubble-from.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-chatbubble-from.png"; path = "7-hipmob-chatbubble-from.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		65AA56BD3932434EB37E348B /* 7-hipmob-chatbubble-from@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-chatbubble-from@2x.png"; path = "7-hipmob-chatbubble-from@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		534CEA29EB1B4C1BAAEF6BBA /* 7-hipmob-chatbubble-to.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-chatbubble-to.png"; path = "7-hipmob-chatbubble-to.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		B2FE60F501AE4151A55FD32D /* 7-hipmob-chatbubble-to@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-chatbubble-to@2x.png"; path = "7-hipmob-chatbubble-to@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		90B5F53B768F4EB5B58E59AF /* 7-hipmob-input-background-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-input-background-landscape.png"; path = "7-hipmob-input-background-landscape.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		155F7F40616B4591A61C63A9 /* 7-hipmob-input-background.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-input-background.png"; path = "7-hipmob-input-background.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		96DFA03D32484BBC93E2256C /* 7-hipmob-input-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-input-background@2x.png"; path = "7-hipmob-input-background@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		5EF0414F39154C439C565C6D /* 7-hipmob-operator-available.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-operator-available.png"; path = "7-hipmob-operator-available.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		7AB08CF36EEB4B7D9D999163 /* 7-hipmob-operator-connecting.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-operator-connecting.png"; path = "7-hipmob-operator-connecting.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		E8423267D2034E81A1C2FD50 /* 7-hipmob-operator-offline.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-operator-offline.png"; path = "7-hipmob-operator-offline.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		B91208EE5D49404A996FADC5 /* 7-hipmob-operator-unavailable.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-operator-unavailable.png"; path = "7-hipmob-operator-unavailable.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		331B0414E18542F4BF8DADF1 /* 7-hipmob-send-active.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-send-active.png"; path = "7-hipmob-send-active.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		1CE5E65313934D6783CF6203 /* 7-hipmob-send-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-send-inactive.png"; path = "7-hipmob-send-inactive.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		C7D56490E2C64B788BDA7436 /* 7-hipmob-send-instate.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-send-instate.png"; path = "7-hipmob-send-instate.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		7250C08EC5484E1BAFA0CC46 /* 7-hipmob-webview-back.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-webview-back.png"; path = "7-hipmob-webview-back.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		73211B0E790447DD9F4229E6 /* 7-hipmob-webview-back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-webview-back@2x.png"; path = "7-hipmob-webview-back@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		1ADB8E5AEC18400ABB5FEB4F /* 7-hipmob-webview-forward.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-webview-forward.png"; path = "7-hipmob-webview-forward.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		7D3DD010107343ABAD2455C3 /* 7-hipmob-webview-forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-webview-forward@2x.png"; path = "7-hipmob-webview-forward@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		28C0EB5A75E44EF5B941BF12 /* hipmob-back.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-back.png"; path = "hipmob-back.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		44AC8FF28C1E4F78BE09544C /* hipmob-chat-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-chat-pressed.png"; path = "hipmob-chat-pressed.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		F168F7269A1645A9AE07C7C0 /* hipmob-chat-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-chat-pressed@2x.png"; path = "hipmob-chat-pressed@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		C4CC3DF8D94F4657BF62BA9E /* hipmob-chat.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-chat.png"; path = "hipmob-chat.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		68BEA5605724476099F08800 /* hipmob-chat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-chat@2x.png"; path = "hipmob-chat@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		4490804D52D8468999AE9EC6 /* hipmob-chatbubble-from.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-chatbubble-from.png"; path = "hipmob-chatbubble-from.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		6AD9B720EC274F4CAEF6DA20 /* hipmob-chatbubble-from@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-chatbubble-from@2x.png"; path = "hipmob-chatbubble-from@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		D823390B7D97424F98E4F1B0 /* hipmob-chatbubble-to.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-chatbubble-to.png"; path = "hipmob-chatbubble-to.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		265CF9ECF8954D77B84E018A /* hipmob-chatbubble-to@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-chatbubble-to@2x.png"; path = "hipmob-chatbubble-to@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		BDEDA879B3C543CFB0479EB3 /* hipmob-input-background-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-input-background-landscape.png"; path = "hipmob-input-background-landscape.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		38AA7996263F40B0B2B48975 /* hipmob-input-background.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-input-background.png"; path = "hipmob-input-background.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		FF338A45EEC3419D8315BD7A /* hipmob-input-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-input-background@2x.png"; path = "hipmob-input-background@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		F4D2CCF0BC41451DB53171D3 /* hipmob-operator-available.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-operator-available.png"; path = "hipmob-operator-available.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		0385CF30C77145F1BFD9B25D /* hipmob-operator-connecting.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-operator-connecting.png"; path = "hipmob-operator-connecting.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		7588D6601FDC4C76BBC56FAA /* hipmob-operator-offline.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-operator-offline.png"; path = "hipmob-operator-offline.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		485E616F65064E89982C73D0 /* hipmob-operator-unavailable.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-operator-unavailable.png"; path = "hipmob-operator-unavailable.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		246FDB14D35A4F5BA31B040A /* hipmob-send-active.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-send-active.png"; path = "hipmob-send-active.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		1A45283B848C4510BF83D4CD /* hipmob-send-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-send-inactive.png"; path = "hipmob-send-inactive.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		4D8E74CFC7CF44DD926159E3 /* hipmob-send-instate.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-send-instate.png"; path = "hipmob-send-instate.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		1D579995F7B9412EB9F18D5B /* hipmob-webview-back.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-webview-back.png"; path = "hipmob-webview-back.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		87266BDF17DB4894B7665E19 /* hipmob-webview-back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-webview-back@2x.png"; path = "hipmob-webview-back@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		D7A52A352AD74CCFBEBB73E0 /* hipmob-webview-forward.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-webview-forward.png"; path = "hipmob-webview-forward.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		564B2ABC23584C5EB8AB8878 /* hipmob-webview-forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-webview-forward@2x.png"; path = "hipmob-webview-forward@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
-		A3BADC8E2E1344B9BFF0B7F4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsqlite3.dylib"; path = "usr/lib/libsqlite3.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
-		BE2A4F5FB95B4B4D8C38820C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreData.framework"; path = "System/Library/Frameworks/CoreData.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		7662AC090F354375BD7236A1 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libicucore.dylib"; path = "usr/lib/libicucore.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
-		5887161A96044BABB21FBEBD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		E0815DA9062E438B85BFA7E8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CFNetwork.framework"; path = "System/Library/Frameworks/CFNetwork.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		020BC89C726749CFBB6DD872 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		77E01BF519D94F3F9493EDA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		FCFC2AA4E2114ACE91A27F1B /* HipmobPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "HipmobPlugin.m"; path = "com.hipmob.ios.phonegap.plugin/HipmobPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		DEA1A0F737F347648D99618A /* hipmob */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob"; path = "com.hipmob.ios.phonegap.plugin/hipmob"; sourceTree = "<group>"; fileEncoding = 4; };
+		69CD2CB153D6492593EA4926 /* hipmob */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob"; path = "Hipmob Phonegap Sample/Plugins/com.hipmob.ios.phonegap.plugin/hipmob"; sourceTree = "<group>"; fileEncoding = 4; };
+		1D6E804C17484B6C8C15F552 /* HipmobPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HipmobPlugin.h"; path = "com.hipmob.ios.phonegap.plugin/HipmobPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		67E7DC43893F473FB3712C2E /* HMChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMChatViewController.h"; path = "com.hipmob.ios.phonegap.plugin/HMChatViewController.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		69970F57F6C5411EA95B0309 /* HMHelpDeskSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMHelpDeskSearchViewController.h"; path = "com.hipmob.ios.phonegap.plugin/HMHelpDeskSearchViewController.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		516B8ECFAAB64E40AF084450 /* HMHelpDeskArticleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMHelpDeskArticleViewController.h"; path = "com.hipmob.ios.phonegap.plugin/HMHelpDeskArticleViewController.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F9D393D114D3430A8E7E8006 /* HMContentHelpDeskArticleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMContentHelpDeskArticleViewController.h"; path = "com.hipmob.ios.phonegap.plugin/HMContentHelpDeskArticleViewController.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		2B5370448307471F8E0B0554 /* HMChatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMChatView.h"; path = "com.hipmob.ios.phonegap.plugin/HMChatView.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		7F42A043D2FD4CAFA5DABCB1 /* HMChatMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMChatMessage.h"; path = "com.hipmob.ios.phonegap.plugin/HMChatMessage.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		2AE7E33E56E6414298EB0FDE /* HMHelpDeskSearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMHelpDeskSearchView.h"; path = "com.hipmob.ios.phonegap.plugin/HMHelpDeskSearchView.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		1FE46DEFF3654941822787B4 /* HMVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMVersion.h"; path = "com.hipmob.ios.phonegap.plugin/HMVersion.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		EA6D2C923E7248C3999F7D8E /* HMService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HMService.h"; path = "com.hipmob.ios.phonegap.plugin/HMService.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		6C5E80A32817440F8AC38502 /* 7-hipmob-back.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-back.png"; path = "7-hipmob-back.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		827C90B878904696AFAB472E /* 7-hipmob-chatbubble-from.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-chatbubble-from.png"; path = "7-hipmob-chatbubble-from.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		0CB9EF66EF244E4AA1429FC8 /* 7-hipmob-chatbubble-from@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-chatbubble-from@2x.png"; path = "7-hipmob-chatbubble-from@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		BE284C95DEE0488895C6A7F8 /* 7-hipmob-chatbubble-to.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-chatbubble-to.png"; path = "7-hipmob-chatbubble-to.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		A99FF6F34FCA440289FFD7F0 /* 7-hipmob-chatbubble-to@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-chatbubble-to@2x.png"; path = "7-hipmob-chatbubble-to@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		EDAECE22F2384B65ADE954F6 /* 7-hipmob-input-background-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-input-background-landscape.png"; path = "7-hipmob-input-background-landscape.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		6C3EB475E80743BB93A38A3C /* 7-hipmob-input-background.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-input-background.png"; path = "7-hipmob-input-background.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		B736AEA9702449F79551604E /* 7-hipmob-input-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-input-background@2x.png"; path = "7-hipmob-input-background@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		75AFF79C9FC844098C3158C0 /* 7-hipmob-operator-available.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-operator-available.png"; path = "7-hipmob-operator-available.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		3A6ABBA663144C5D8FDD65A0 /* 7-hipmob-operator-connecting.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-operator-connecting.png"; path = "7-hipmob-operator-connecting.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		14FC733CCBDE4E5D9287124B /* 7-hipmob-operator-offline.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-operator-offline.png"; path = "7-hipmob-operator-offline.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		85C61DE7EEFA4F45987CFF2B /* 7-hipmob-operator-unavailable.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-operator-unavailable.png"; path = "7-hipmob-operator-unavailable.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		47A8F9F6809B40A6BCD4845A /* 7-hipmob-send-active.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-send-active.png"; path = "7-hipmob-send-active.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		B7964BD902C14CA3B2AA8BD2 /* 7-hipmob-send-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-send-inactive.png"; path = "7-hipmob-send-inactive.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		A5E4027576CF4021811169EB /* 7-hipmob-send-instate.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-send-instate.png"; path = "7-hipmob-send-instate.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		368A5B1B357D41DEA26EB5BD /* 7-hipmob-webview-back.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-webview-back.png"; path = "7-hipmob-webview-back.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		923E84B9783F433ABBBD0900 /* 7-hipmob-webview-back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-webview-back@2x.png"; path = "7-hipmob-webview-back@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		5AF1883C439448E7BFC35808 /* 7-hipmob-webview-forward.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-webview-forward.png"; path = "7-hipmob-webview-forward.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		16E51DEC46F04E908C0A67AF /* 7-hipmob-webview-forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "7-hipmob-webview-forward@2x.png"; path = "7-hipmob-webview-forward@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		751BF559A61B4C5FAF4642F9 /* hipmob-back.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-back.png"; path = "hipmob-back.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		4B4A431B502E468AB701B785 /* hipmob-chat-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-chat-pressed.png"; path = "hipmob-chat-pressed.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		A732791EE849435C9D9688B8 /* hipmob-chat-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-chat-pressed@2x.png"; path = "hipmob-chat-pressed@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		C05574FC29F348DB8BE257FC /* hipmob-chat.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-chat.png"; path = "hipmob-chat.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		D96D4D23DBA54CD1A8734BE2 /* hipmob-chat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-chat@2x.png"; path = "hipmob-chat@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		34BB3227E904421F9D672A39 /* hipmob-chatbubble-from.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-chatbubble-from.png"; path = "hipmob-chatbubble-from.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		CE98E6AE2A5F4E07A6B29EC6 /* hipmob-chatbubble-from@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-chatbubble-from@2x.png"; path = "hipmob-chatbubble-from@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		84A766119F414791AF7AF42D /* hipmob-chatbubble-to.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-chatbubble-to.png"; path = "hipmob-chatbubble-to.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		D58EE6860C014409B4242E51 /* hipmob-chatbubble-to@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-chatbubble-to@2x.png"; path = "hipmob-chatbubble-to@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		CD88B3F3A1EC43A890FBEAF2 /* hipmob-input-background-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-input-background-landscape.png"; path = "hipmob-input-background-landscape.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		E98C940DB7334A198229E3FA /* hipmob-input-background.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-input-background.png"; path = "hipmob-input-background.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		A0C7E5A8FDA94E65840CDBAE /* hipmob-input-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-input-background@2x.png"; path = "hipmob-input-background@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		B4BA39EAE3DC4AF8990275F0 /* hipmob-operator-available.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-operator-available.png"; path = "hipmob-operator-available.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		A39F8E2282C849779A9D0401 /* hipmob-operator-connecting.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-operator-connecting.png"; path = "hipmob-operator-connecting.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		E42A92A246EC4F8E801349F7 /* hipmob-operator-offline.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-operator-offline.png"; path = "hipmob-operator-offline.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		99D4302F19204242BA766B27 /* hipmob-operator-unavailable.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-operator-unavailable.png"; path = "hipmob-operator-unavailable.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		D7BEC1828DD84D7F89F1C4DB /* hipmob-send-active.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-send-active.png"; path = "hipmob-send-active.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		62A19472E8A0474DADF01A13 /* hipmob-send-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-send-inactive.png"; path = "hipmob-send-inactive.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		7B74B275F44848AF95B6E708 /* hipmob-send-instate.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-send-instate.png"; path = "hipmob-send-instate.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		3B6C8F06C35B47D1829C9FCB /* hipmob-webview-back.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-webview-back.png"; path = "hipmob-webview-back.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		43A57D2620D24AF9A96924BC /* hipmob-webview-back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-webview-back@2x.png"; path = "hipmob-webview-back@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		46668D0765BA4A95A4224D18 /* hipmob-webview-forward.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-webview-forward.png"; path = "hipmob-webview-forward.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		76F0490868904C2DBC549FDD /* hipmob-webview-forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "hipmob-webview-forward@2x.png"; path = "hipmob-webview-forward@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		01312A4A643B4EEC85C4FB26 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsqlite3.dylib"; path = "usr/lib/libsqlite3.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		9C763ADE14724C2BA6525338 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreData.framework"; path = "System/Library/Frameworks/CoreData.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		B7F874A4DC9F4CE29552EE49 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		43C532833B4545B7B59F29BE /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libicucore.dylib"; path = "usr/lib/libicucore.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		7CDE4171AF9044E7BCA1455C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		53980C02118E47F79533B126 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CFNetwork.framework"; path = "System/Library/Frameworks/CFNetwork.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		4110B654F5DA4B6181FFA16E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		6AC07F37BAA04CC9976628D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,14 +228,15 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
-				7353D33CE3F44B5C86A3BDFC /* hipmob in Resources */,
-				A0A6DF56BE7848FB95E0F9C6 /* libsqlite3.dylib in Frameworks */,
-				9275CCF9107842D09CA48786 /* CoreData.framework in Resources */,
-				986B372CD959446F801C0E62 /* libicucore.dylib in Frameworks */,
-				1051C2F7BB9A41BB9F3A7A2A /* Security.framework in Resources */,
-				6825859E4F58486DB3849FE4 /* CFNetwork.framework in Resources */,
-				C8E1210982254A0A9C49AB2E /* UIKit.framework in Resources */,
-				3E9D1C2473D140F799DB2581 /* Foundation.framework in Resources */,
+				A902EB2CAEBB430E96D8FE36 /* hipmob in Resources */,
+				B12BE139159448ECA35DA39C /* libsqlite3.dylib in Frameworks */,
+				F045285E40D4413AA95C11D3 /* CoreData.framework in Resources */,
+				36C017CF95174870AB781807 /* CoreTelephony.framework in Resources */,
+				6050031CA7AB44E2ACA744B3 /* libicucore.dylib in Frameworks */,
+				FD3DD6B9FF3D4774A8801F0C /* Security.framework in Resources */,
+				C4515AE633DA436DBFF7B19D /* CFNetwork.framework in Resources */,
+				399754E0587B40E0904B28F4 /* UIKit.framework in Resources */,
+				5D8FD4CB59C84A37A155FD1D /* Foundation.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,48 +316,48 @@
 				308D052D1370CCF300D202BF /* icons */,
 				308D05311370CCF300D202BF /* splash */,
 				8D1107310486CEB800E47090 /* Hipmob Phonegap Sample-Info.plist */,
-				365F609ECB504EC7B0FB2546 /* 7-hipmob-back.png */,
-				CCD87FA17BFE468C81B96B52 /* 7-hipmob-chatbubble-from.png */,
-				65AA56BD3932434EB37E348B /* 7-hipmob-chatbubble-from@2x.png */,
-				534CEA29EB1B4C1BAAEF6BBA /* 7-hipmob-chatbubble-to.png */,
-				B2FE60F501AE4151A55FD32D /* 7-hipmob-chatbubble-to@2x.png */,
-				90B5F53B768F4EB5B58E59AF /* 7-hipmob-input-background-landscape.png */,
-				155F7F40616B4591A61C63A9 /* 7-hipmob-input-background.png */,
-				96DFA03D32484BBC93E2256C /* 7-hipmob-input-background@2x.png */,
-				5EF0414F39154C439C565C6D /* 7-hipmob-operator-available.png */,
-				7AB08CF36EEB4B7D9D999163 /* 7-hipmob-operator-connecting.png */,
-				E8423267D2034E81A1C2FD50 /* 7-hipmob-operator-offline.png */,
-				B91208EE5D49404A996FADC5 /* 7-hipmob-operator-unavailable.png */,
-				331B0414E18542F4BF8DADF1 /* 7-hipmob-send-active.png */,
-				1CE5E65313934D6783CF6203 /* 7-hipmob-send-inactive.png */,
-				C7D56490E2C64B788BDA7436 /* 7-hipmob-send-instate.png */,
-				7250C08EC5484E1BAFA0CC46 /* 7-hipmob-webview-back.png */,
-				73211B0E790447DD9F4229E6 /* 7-hipmob-webview-back@2x.png */,
-				1ADB8E5AEC18400ABB5FEB4F /* 7-hipmob-webview-forward.png */,
-				7D3DD010107343ABAD2455C3 /* 7-hipmob-webview-forward@2x.png */,
-				28C0EB5A75E44EF5B941BF12 /* hipmob-back.png */,
-				44AC8FF28C1E4F78BE09544C /* hipmob-chat-pressed.png */,
-				F168F7269A1645A9AE07C7C0 /* hipmob-chat-pressed@2x.png */,
-				C4CC3DF8D94F4657BF62BA9E /* hipmob-chat.png */,
-				68BEA5605724476099F08800 /* hipmob-chat@2x.png */,
-				4490804D52D8468999AE9EC6 /* hipmob-chatbubble-from.png */,
-				6AD9B720EC274F4CAEF6DA20 /* hipmob-chatbubble-from@2x.png */,
-				D823390B7D97424F98E4F1B0 /* hipmob-chatbubble-to.png */,
-				265CF9ECF8954D77B84E018A /* hipmob-chatbubble-to@2x.png */,
-				BDEDA879B3C543CFB0479EB3 /* hipmob-input-background-landscape.png */,
-				38AA7996263F40B0B2B48975 /* hipmob-input-background.png */,
-				FF338A45EEC3419D8315BD7A /* hipmob-input-background@2x.png */,
-				F4D2CCF0BC41451DB53171D3 /* hipmob-operator-available.png */,
-				0385CF30C77145F1BFD9B25D /* hipmob-operator-connecting.png */,
-				7588D6601FDC4C76BBC56FAA /* hipmob-operator-offline.png */,
-				485E616F65064E89982C73D0 /* hipmob-operator-unavailable.png */,
-				246FDB14D35A4F5BA31B040A /* hipmob-send-active.png */,
-				1A45283B848C4510BF83D4CD /* hipmob-send-inactive.png */,
-				4D8E74CFC7CF44DD926159E3 /* hipmob-send-instate.png */,
-				1D579995F7B9412EB9F18D5B /* hipmob-webview-back.png */,
-				87266BDF17DB4894B7665E19 /* hipmob-webview-back@2x.png */,
-				D7A52A352AD74CCFBEBB73E0 /* hipmob-webview-forward.png */,
-				564B2ABC23584C5EB8AB8878 /* hipmob-webview-forward@2x.png */,
+				6C5E80A32817440F8AC38502 /* 7-hipmob-back.png */,
+				827C90B878904696AFAB472E /* 7-hipmob-chatbubble-from.png */,
+				0CB9EF66EF244E4AA1429FC8 /* 7-hipmob-chatbubble-from@2x.png */,
+				BE284C95DEE0488895C6A7F8 /* 7-hipmob-chatbubble-to.png */,
+				A99FF6F34FCA440289FFD7F0 /* 7-hipmob-chatbubble-to@2x.png */,
+				EDAECE22F2384B65ADE954F6 /* 7-hipmob-input-background-landscape.png */,
+				6C3EB475E80743BB93A38A3C /* 7-hipmob-input-background.png */,
+				B736AEA9702449F79551604E /* 7-hipmob-input-background@2x.png */,
+				75AFF79C9FC844098C3158C0 /* 7-hipmob-operator-available.png */,
+				3A6ABBA663144C5D8FDD65A0 /* 7-hipmob-operator-connecting.png */,
+				14FC733CCBDE4E5D9287124B /* 7-hipmob-operator-offline.png */,
+				85C61DE7EEFA4F45987CFF2B /* 7-hipmob-operator-unavailable.png */,
+				47A8F9F6809B40A6BCD4845A /* 7-hipmob-send-active.png */,
+				B7964BD902C14CA3B2AA8BD2 /* 7-hipmob-send-inactive.png */,
+				A5E4027576CF4021811169EB /* 7-hipmob-send-instate.png */,
+				368A5B1B357D41DEA26EB5BD /* 7-hipmob-webview-back.png */,
+				923E84B9783F433ABBBD0900 /* 7-hipmob-webview-back@2x.png */,
+				5AF1883C439448E7BFC35808 /* 7-hipmob-webview-forward.png */,
+				16E51DEC46F04E908C0A67AF /* 7-hipmob-webview-forward@2x.png */,
+				751BF559A61B4C5FAF4642F9 /* hipmob-back.png */,
+				4B4A431B502E468AB701B785 /* hipmob-chat-pressed.png */,
+				A732791EE849435C9D9688B8 /* hipmob-chat-pressed@2x.png */,
+				C05574FC29F348DB8BE257FC /* hipmob-chat.png */,
+				D96D4D23DBA54CD1A8734BE2 /* hipmob-chat@2x.png */,
+				34BB3227E904421F9D672A39 /* hipmob-chatbubble-from.png */,
+				CE98E6AE2A5F4E07A6B29EC6 /* hipmob-chatbubble-from@2x.png */,
+				84A766119F414791AF7AF42D /* hipmob-chatbubble-to.png */,
+				D58EE6860C014409B4242E51 /* hipmob-chatbubble-to@2x.png */,
+				CD88B3F3A1EC43A890FBEAF2 /* hipmob-input-background-landscape.png */,
+				E98C940DB7334A198229E3FA /* hipmob-input-background.png */,
+				A0C7E5A8FDA94E65840CDBAE /* hipmob-input-background@2x.png */,
+				B4BA39EAE3DC4AF8990275F0 /* hipmob-operator-available.png */,
+				A39F8E2282C849779A9D0401 /* hipmob-operator-connecting.png */,
+				E42A92A246EC4F8E801349F7 /* hipmob-operator-offline.png */,
+				99D4302F19204242BA766B27 /* hipmob-operator-unavailable.png */,
+				D7BEC1828DD84D7F89F1C4DB /* hipmob-send-active.png */,
+				62A19472E8A0474DADF01A13 /* hipmob-send-inactive.png */,
+				7B74B275F44848AF95B6E708 /* hipmob-send-instate.png */,
+				3B6C8F06C35B47D1829C9FCB /* hipmob-webview-back.png */,
+				43A57D2620D24AF9A96924BC /* hipmob-webview-back@2x.png */,
+				46668D0765BA4A95A4224D18 /* hipmob-webview-forward.png */,
+				76F0490868904C2DBC549FDD /* hipmob-webview-forward@2x.png */,
 			);
 			name = Resources;
 			path = "Hipmob Phonegap Sample/Resources";
@@ -366,14 +370,15 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				B0002A61210044D4B0B4A594 /* hipmob */,
-				A3BADC8E2E1344B9BFF0B7F4 /* libsqlite3.dylib */,
-				BE2A4F5FB95B4B4D8C38820C /* CoreData.framework */,
-				7662AC090F354375BD7236A1 /* libicucore.dylib */,
-				5887161A96044BABB21FBEBD /* Security.framework */,
-				E0815DA9062E438B85BFA7E8 /* CFNetwork.framework */,
-				020BC89C726749CFBB6DD872 /* UIKit.framework */,
-				77E01BF519D94F3F9493EDA5 /* Foundation.framework */,
+				69CD2CB153D6492593EA4926 /* hipmob */,
+				01312A4A643B4EEC85C4FB26 /* libsqlite3.dylib */,
+				9C763ADE14724C2BA6525338 /* CoreData.framework */,
+				B7F874A4DC9F4CE29552EE49 /* CoreTelephony.framework */,
+				43C532833B4545B7B59F29BE /* libicucore.dylib */,
+				7CDE4171AF9044E7BCA1455C /* Security.framework */,
+				53980C02118E47F79533B126 /* CFNetwork.framework */,
+				4110B654F5DA4B6181FFA16E /* UIKit.framework */,
+				6AC07F37BAA04CC9976628D4 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -389,17 +394,18 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				88D38A3DF838464395174324 /* HipmobPlugin.m */,
-				0939AF4CB6FA4AE1ABC15048 /* hipmob */,
-				FB695DFF56ED412C84FEA120 /* HipmobPlugin.h */,
-				90A19938D0C7481E894596F5 /* HMChatViewController.h */,
-				6F4A4672AE984BAE9D200987 /* HMHelpDeskSearchViewController.h */,
-				3D0AB06F53114663BFC77428 /* HMHelpDeskArticleViewController.h */,
-				DA38F31A33244842B0AC0DC6 /* HMContentHelpDeskArticleViewController.h */,
-				B7D8AB7B607448D59888D2FC /* HMChatView.h */,
-				1D2152BCBBE946028550A2BF /* HMChatMessage.h */,
-				5829E1F926F7468A9802C053 /* HMHelpDeskSearchView.h */,
-				0E376604735843139BBDDC81 /* HMVersion.h */,
+				FCFC2AA4E2114ACE91A27F1B /* HipmobPlugin.m */,
+				DEA1A0F737F347648D99618A /* hipmob */,
+				1D6E804C17484B6C8C15F552 /* HipmobPlugin.h */,
+				67E7DC43893F473FB3712C2E /* HMChatViewController.h */,
+				69970F57F6C5411EA95B0309 /* HMHelpDeskSearchViewController.h */,
+				516B8ECFAAB64E40AF084450 /* HMHelpDeskArticleViewController.h */,
+				F9D393D114D3430A8E7E8006 /* HMContentHelpDeskArticleViewController.h */,
+				2B5370448307471F8E0B0554 /* HMChatView.h */,
+				7F42A043D2FD4CAFA5DABCB1 /* HMChatMessage.h */,
+				2AE7E33E56E6414298EB0FDE /* HMHelpDeskSearchView.h */,
+				1FE46DEFF3654941822787B4 /* HMVersion.h */,
+				EA6D2C923E7248C3999F7D8E /* HMService.h */,
 			);
 			name = Plugins;
 			path = "Hipmob Phonegap Sample/Plugins";
@@ -555,48 +561,48 @@
 				7E7966E11810823500FA85AD /* icon-50@2x.png in Resources */,
 				7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */,
 				30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */,
-				9414F09FF0AB41D58510C479 /* 7-hipmob-back.png in Resources */,
-				1F29D1DAA1714C4FA747A339 /* 7-hipmob-chatbubble-from.png in Resources */,
-				DC89064B7FC8497E9F2DD38F /* 7-hipmob-chatbubble-from@2x.png in Resources */,
-				1D5A359B8B9D4FE1B38AA706 /* 7-hipmob-chatbubble-to.png in Resources */,
-				BD7911F91E4645258A083692 /* 7-hipmob-chatbubble-to@2x.png in Resources */,
-				58EAA45017A8467FB60022FE /* 7-hipmob-input-background-landscape.png in Resources */,
-				D4C7D8A1DDBA4244AFE0D395 /* 7-hipmob-input-background.png in Resources */,
-				18EAB8B1133C4F75AE668969 /* 7-hipmob-input-background@2x.png in Resources */,
-				CAB0BDE4A6F744889D3063E4 /* 7-hipmob-operator-available.png in Resources */,
-				3823BC55350A4F2797DE5CAC /* 7-hipmob-operator-connecting.png in Resources */,
-				3A7F429D902C4024BA86BF1F /* 7-hipmob-operator-offline.png in Resources */,
-				DE9B2F9395954AE4BDC2801E /* 7-hipmob-operator-unavailable.png in Resources */,
-				0C1500BE1E5841458E8DF0A1 /* 7-hipmob-send-active.png in Resources */,
-				BF3C3D5E3E3C475D87D0687C /* 7-hipmob-send-inactive.png in Resources */,
-				4DD28F37EE70495BA0D419DE /* 7-hipmob-send-instate.png in Resources */,
-				FECE626A5A31476F9FB9FEE9 /* 7-hipmob-webview-back.png in Resources */,
-				3AEC1786E78840FC895A804B /* 7-hipmob-webview-back@2x.png in Resources */,
-				C6660C643C754657B73F60F9 /* 7-hipmob-webview-forward.png in Resources */,
-				02EBE86C8964410E98C13B6F /* 7-hipmob-webview-forward@2x.png in Resources */,
-				ACDD4E29140F4776BDB263C4 /* hipmob-back.png in Resources */,
-				8579A2E1FE01419BBA87B711 /* hipmob-chat-pressed.png in Resources */,
-				6E5516CD5EAD40C29DDB951C /* hipmob-chat-pressed@2x.png in Resources */,
-				2BCC043DC6D7414787E250CE /* hipmob-chat.png in Resources */,
-				D57EAA38F1F14800A3F246C1 /* hipmob-chat@2x.png in Resources */,
-				D171584BEE344D58AFB29DB8 /* hipmob-chatbubble-from.png in Resources */,
-				9AEF4857502C4C1FB479D12B /* hipmob-chatbubble-from@2x.png in Resources */,
-				0F4162BA44C940489190EA71 /* hipmob-chatbubble-to.png in Resources */,
-				80E6328437DA444EAB339BBE /* hipmob-chatbubble-to@2x.png in Resources */,
-				1E4EA9B161E74BD6B9DE9E82 /* hipmob-input-background-landscape.png in Resources */,
-				30AE2D52255C428BBCE0BAB5 /* hipmob-input-background.png in Resources */,
-				8380F76FA65D4FB7B43B41D8 /* hipmob-input-background@2x.png in Resources */,
-				8628CEB8F08D416C923B34C8 /* hipmob-operator-available.png in Resources */,
-				BFB09F62EB444A90B9424FF4 /* hipmob-operator-connecting.png in Resources */,
-				D976F3924379497FA3AE2B6D /* hipmob-operator-offline.png in Resources */,
-				46FD83C7ECFB435993E259A7 /* hipmob-operator-unavailable.png in Resources */,
-				F830727A80974489A569C0F6 /* hipmob-send-active.png in Resources */,
-				E100631ED9B54534A89A5B9F /* hipmob-send-inactive.png in Resources */,
-				EDC84BD144CF4292B97E972F /* hipmob-send-instate.png in Resources */,
-				5647E8CABC124FB0907E0E0C /* hipmob-webview-back.png in Resources */,
-				69374B00F2574CDEABD794FD /* hipmob-webview-back@2x.png in Resources */,
-				922B27D7866F492DA89A5939 /* hipmob-webview-forward.png in Resources */,
-				71530A7656664394ABF42C4F /* hipmob-webview-forward@2x.png in Resources */,
+				1A6588D02BD14D48BD1B67F7 /* 7-hipmob-back.png in Resources */,
+				1A1E31B2ADCB4E58B355786E /* 7-hipmob-chatbubble-from.png in Resources */,
+				AF91D91244854A59B5E6D183 /* 7-hipmob-chatbubble-from@2x.png in Resources */,
+				00EA722022F340E397BB9D8E /* 7-hipmob-chatbubble-to.png in Resources */,
+				ACE8C5E7B189485EBCA2D3DA /* 7-hipmob-chatbubble-to@2x.png in Resources */,
+				5155ED3BC0D944A3ADA72AA3 /* 7-hipmob-input-background-landscape.png in Resources */,
+				EF679C7ACCB84A13A47E2355 /* 7-hipmob-input-background.png in Resources */,
+				2EEFC384AF9E407EA1133051 /* 7-hipmob-input-background@2x.png in Resources */,
+				5302F750A4364E9B884A508D /* 7-hipmob-operator-available.png in Resources */,
+				BF7E9746BAA54AFABA1BE858 /* 7-hipmob-operator-connecting.png in Resources */,
+				B0CFCE77DD494714A6A180C0 /* 7-hipmob-operator-offline.png in Resources */,
+				86160B1E0DF346C5BF03B2E7 /* 7-hipmob-operator-unavailable.png in Resources */,
+				CF8FCDFD31894A45900F2AF5 /* 7-hipmob-send-active.png in Resources */,
+				79250321B5654B61AF15BC0A /* 7-hipmob-send-inactive.png in Resources */,
+				1B693BD218DB4358A68FB51D /* 7-hipmob-send-instate.png in Resources */,
+				A8B3B014B34341479121C8C8 /* 7-hipmob-webview-back.png in Resources */,
+				6A92F8E70D4D4FDDB697E0F0 /* 7-hipmob-webview-back@2x.png in Resources */,
+				37D4B6EA26FF47A096F26EC5 /* 7-hipmob-webview-forward.png in Resources */,
+				78B97E58465E45F3BD456378 /* 7-hipmob-webview-forward@2x.png in Resources */,
+				F645752BB3C549F9A7386FA4 /* hipmob-back.png in Resources */,
+				043E09E971A54F20B48F63FF /* hipmob-chat-pressed.png in Resources */,
+				3436BD7F956643BF914426B8 /* hipmob-chat-pressed@2x.png in Resources */,
+				3AE6F8B86C634479A09C4206 /* hipmob-chat.png in Resources */,
+				53DE72F6AB4E4961A2F84077 /* hipmob-chat@2x.png in Resources */,
+				44B82692AA14495A893DD36F /* hipmob-chatbubble-from.png in Resources */,
+				1BC0967060C349A48EC3EEF3 /* hipmob-chatbubble-from@2x.png in Resources */,
+				E004281A149A41DE8247AB96 /* hipmob-chatbubble-to.png in Resources */,
+				BC96882D21C94DB9AF823D9A /* hipmob-chatbubble-to@2x.png in Resources */,
+				8D2C8C927FB4481091993E4A /* hipmob-input-background-landscape.png in Resources */,
+				F8AB7D42AD804F94B6F755F3 /* hipmob-input-background.png in Resources */,
+				C56CB6A20CBE41EB844E0F6F /* hipmob-input-background@2x.png in Resources */,
+				2C5121B5FB3B419CAD12B944 /* hipmob-operator-available.png in Resources */,
+				EC62775C906C450AA334B3CF /* hipmob-operator-connecting.png in Resources */,
+				588DB99D82904829B33E1590 /* hipmob-operator-offline.png in Resources */,
+				FC91A390678C4E79BD6553FD /* hipmob-operator-unavailable.png in Resources */,
+				5F5B39C8E1B143BDB517C53D /* hipmob-send-active.png in Resources */,
+				7CDD4E3482644986942A15E7 /* hipmob-send-inactive.png in Resources */,
+				A417AE779203444D85BC6E2E /* hipmob-send-instate.png in Resources */,
+				1AA8ECA52D974365917AFEA9 /* hipmob-webview-back.png in Resources */,
+				27645D87C4A34585A4E0962B /* hipmob-webview-back@2x.png in Resources */,
+				97D92A4F695349E981A37F29 /* hipmob-webview-forward.png in Resources */,
+				A35866A72A324CB5B68BF281 /* hipmob-webview-forward@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,8 +633,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				DAFCC0F4945A494594354AE6 /* HipmobPlugin.m in Sources */,
-				94F5814C8FF941B6971A9F77 /* hipmob in Resources */,
+				D233544A8D6D44F6AEC2D141 /* HipmobPlugin.m in Sources */,
+				7079CE5D0BA940C9915CCCE2 /* hipmob in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -60,6 +60,36 @@
  * @param chatViewController The HMChatViewController instance that is closing.
  */
 -(void)chatViewControllerWillDismiss:(id)chatViewController;
+
+/**
+ * Tells the delegate that an operator came online.
+ *
+ * @param chatViewController The HMChatViewController instance that was updated.
+ */
+-(void)chatViewControllerDidOperatorComeOnline:(id)chatViewController;
+
+/**
+ * Tells the delegate that all operators went offline.
+ *
+ * @param chatViewController The HMChatViewController instance that was updated.
+ */
+-(void)chatViewControllerDidOperatorGoOffline:(id)chatViewController;
+
+/**
+ * Tells the delegate that a specific peer came online.
+ *
+ * @param chatViewController The HMChatViewController instance that was updated.
+ * @param peer The peer that came online.
+ */
+-(void)chatViewController:(id)chatViewController didPeerComeOnline:(NSString *)peer;
+
+/**
+ * Tells the delegate that a specific peer went offline.
+ *
+ * @param chatViewController The HMChatViewController instance that was updated.
+ * @param peer The peer that wend offline.
+ */
+-(void)chatViewController:(id)chatViewController didPeerGoOffline:(NSString *)peer;
 @end
 
 /**
@@ -112,9 +142,20 @@
 @property (nonatomic, assign) BOOL disableKeyboardAdjustment;
 
 /**
+ * Set to YES to prevent the controller from showing the availability indicator.
+ */
+@property (nonatomic, assign) BOOL hidesAvailabilityIndicator;
+
+/**
  * Sets the preferred status bar style.
  */
 @property (nonatomic, assign) UIStatusBarStyle overridePreferredStatusBarStyle;
+
+/**
+ * Sets/return the extra UIBarButtonItems to be shown on the right for this controller. If this is nil
+ * then no extra button items are shown.
+ */
+@property(nonatomic, copy) NSArray * extraBarButtonItems;
 
 /** The HMChatViewControllerDelegate for this chat view.
  */

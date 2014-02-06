@@ -127,10 +127,10 @@
 - (void)openHelpdeskArticle:(CDVInvokedUrlCommand*)command
 {
   NSString * appid = (NSString *)[command.arguments objectAtIndex:0];
-  NSString * articleurl = (NSString *)[command.arguments objectAtIndex:1];
+  NSString * articleid = (NSString *)[command.arguments objectAtIndex:1];
   NSDictionary * options = (NSDictionary *)[command.arguments objectAtIndex:2];
   NSString * userid = [options objectForKey:@"user"];
-  HMHelpDeskArticleViewController * helppage = [[HMHelpDeskArticleViewController alloc] initWithAppID:appid andArticleURL:articleurl andUser:userid andInfo:nil];
+  HMHelpDeskArticleViewController * helppage = [[HMHelpDeskArticleViewController alloc] initWithAppID:appid andArticle:articleid andUser:userid andInfo:nil];
         
   // title bar color
   NSString * val = [options objectForKey:@"titlebarcolor"];
@@ -147,13 +147,13 @@
         
   // title
   helppage.body.title = (val = [options objectForKey:@"title"]) != nil ? val : @"Help";
-  helppage.chatEnabled = HMHelpDeskArticleChatEnabledAlways;
+  helppage.body.chatEnabled = HMContentHelpDeskArticleChatEnabledAlways;
   val = [options objectForKey:@"chatenabled"];
   if(val){
     if([@"no" isEqualToString:val]){
-      helppage.chatEnabled = HMHelpDeskArticleChatEnabledNever;
+      helppage.body.chatEnabled = HMContentHelpDeskArticleChatEnabledNever;
     }else if([@"ifavailable" isEqualToString:val]){
-      helppage.chatEnabled = HMHelpDeskArticleChatEnabledIfOperatorAvailable;
+      helppage.body.chatEnabled = HMContentHelpDeskArticleChatEnabledIfOperatorAvailable;
     }
   }
         
